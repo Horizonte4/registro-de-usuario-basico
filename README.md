@@ -33,3 +33,13 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA public
 GRANT ALL ON TABLES TO usuario_django;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public
 GRANT ALL ON SEQUENCES TO usuario_django;
+
+Migraciones
+python manage.py makemigrations
+python manage.py migrate
+
+Ejecutar el servidor
+python manage.py runserver
+
+Abrir en el navegador:
+http://127.0.0.1:8000/
